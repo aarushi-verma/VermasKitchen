@@ -1,0 +1,188 @@
+@media screen and (max-width:990px){
+    .grid{
+        grid-template-columns: 100%;
+    }
+    .sub-grid-1{
+        padding-top:20px;
+        padding-left: 50px;
+        padding-bottom: 30px;
+    }
+    .button-1{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+}
+@media  screen and (max-width:805px) {
+
+    /*FOOTER*/
+    .footer{
+height: 180px;
+    }
+    #foot{
+        float: left;
+    }
+    
+}
+@media screen and (max-width:700px){
+    .button-1{
+        margin-top: 50px;
+    }
+    .section-4{
+        grid-template-columns: 100%;
+    }
+    .sub-section-4-b{
+        padding-left: 40px;
+    }
+    .sub-section-4-c{
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width:660px){
+    #navbar{
+        height: 150px;
+    }
+}
+@media screen and (max-width:500px){
+    #navbar{
+        height: 280px;
+    }
+    #navbar ul li a{
+        padding-left:50px;
+        font-size: 25px;
+      }
+    .sub-head{
+        font-size: 90px;
+    }
+    .logo{
+        margin-left: 200px;
+        height: 90px;
+        width: 90px;
+        margin-top: 20px;
+    }
+    .section-1-sub-head{
+        padding-left: 30px; 
+    }
+    #text-area{
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    
+}
+@media screen and (max-width:470px){
+    #navbar{
+        height: 530px;
+    }
+    .logo{
+        margin-left: 150px;
+        height: 120px;
+        width: 120px;
+        margin-top: 30px;
+    }
+    #navbar ul li a{
+        padding-left:110px;
+        font-size: 35px;
+        margin-top: 20px;
+      }
+      
+    .fa{
+margin-right: 90px;
+margin-top: 20px;
+margin-left: 20px;
+    }
+
+}
+@media screen and (max-width:390px){
+
+    #navbar ul li a{
+        padding-left:60px;
+      }
+
+      .logo{
+        margin-left: 120px;
+       
+    }
+    #text-area{
+        margin-left: 30px;
+    }
+    .fa{
+        margin-right: 40px;
+        margin-left: 100px;
+    }
+    .sub-head{
+        font-size: 80px;
+    } 
+    #foot{
+       margin-left: 30px;
+    }     
+}
+@media screen and (max-width:370px){
+
+    .sub-head{
+        font-size: 60px;
+        padding-top: 60px;
+    }
+    .head{
+        height: 300px;
+    }
+}
+@media screen and (max-width:335px){
+    .head{
+        height: 200px;
+    }
+    .sub-head{
+        font-size: 40px;
+        padding-top: 60px;
+    }
+    #navbar ul li a{
+        padding-left:30px;
+        font-size: 30px;
+        margin-top: 20px;
+      }
+      .logo{
+        margin-left: 60px;
+    }
+   textarea{
+       width: 70%;
+   }
+   input[type=text]{
+       width: 75%;
+   }
+   .sub-grid-1{
+    padding-left: 20px;
+}
+   
+}
+@media screen and (max-width:280px){
+    
+    /*SECTION - 1*/
+    .section-1-head{
+        padding-left: 30px;
+    }
+    .line{
+        margin-left: 30px;
+    }
+    .fa{
+        margin-left: 80px;
+    }
+    .logo-footer{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:244px){
+    .section-1-head{
+        font-size: 30px;
+    }
+    #navbar ul li a{
+        padding-left:4px;
+      }
+    .button-1{
+        margin-left: 80px;
+        
+    }
+    .logo{
+        margin-left: 40px;
+    }
+    .fa{
+        margin-left: 60px;
+    }
+}

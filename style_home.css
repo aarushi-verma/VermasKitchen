@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: cursive;
+}
+#navbar{
+    
+background-color: black;
+    margin:0px;
+    height: 62px;
+  }
+
+  .menu{
+    float:right;
+}
+
+#navbar ul li{
+    list-style: none;
+    padding:15px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-top:0px;
+    
+}
+#navbar ul li a{
+    display: inline;
+    list-style: none;
+    padding:3px;
+    font-size: 1.3rem;
+ text-decoration: none;
+   color:white;
+   cursor:pointer;
+  }
+  #navbar ul li a:hover{
+      color: rgb(235, 182, 11);
+  }
+  #navicon:hover{
+    color: rgb(235, 182, 11);
+    cursor:pointer;
+}
+.logo{
+    height: 60px;
+    border-radius: 20%;
+    margin-right: 70px;
+    margin-left: 30px;
+    width: 70px;
+}
+.logo_footer{
+    height: 60px;
+    border-radius: 20%;
+    margin-right: 70px;
+    margin-left: 30px;
+    width: 70px;
+}
+
+
+.button{
+    color:aliceblue;
+    background-color:black;
+    border:1px solid aliceblue ;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.button:hover{
+    color: rgb(181, 211, 9);
+    border:1px solid  rgb(181, 211, 9);
+}
+
+.header{
+    background-image: url("home.png");
+    height: 480px;
+    background-size: cover;
+    
+}
+.heading-1{
+    color: beige;
+    font-size: 99px;
+    padding-top: 104px;
+    padding-left: 74px;
+    margin-bottom: 0;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+.heading-2{
+    color: beige;
+    font-size: 99px;
+    padding-left: 300px;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+
+/* SECTION - 1*/
+
+.section-1{
+   background-image: url("bg-1.png");
+   background-size: cover;
+    height: 130px;
+    color: beige;
+    padding-top: 43px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+/* SECTION - 2*/
+
+.section-2{
+    background-color: beige;
+    /*background-image: url("/bg-2.png");*/
+}
+
+.sub-head{
+
+font-size: 30px;
+padding-top: 8px;
+padding-left:2rem;
+padding-bottom: 10px;
+letter-spacing: 5px;
+background-color: rgb(46, 26, 1);
+color: beige;
+}
+
+.sub-section-2-a{
+    margin-left: 0rem;
+    margin-right: 0rem;
+    display: block;
+   /* background-color: burlywood;*/
+   background-image: url("bg-2.png");
+}
+
+.grid_1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.sub_grid_1{
+    margin-top: 25px;
+    margin-left: 14px;
+    margin-right: 15px;
+    border-radius: 10px;
+    background-color: beige;
+}
+.image_grid{
+    height:152px;
+    width:100%;
+    border-radius: 10px;
+}
+.p_grid{
+    padding: 10px;
+}
+
+
+/* SECTION - 3 */
+
+.section-3{
+    height: 480px;
+    background-image: url("home_bg.jpg");
+    
+}
+
+.sub-section-3-a{
+    color: beige;
+    font-size: 41px;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.sub-section-3-b{
+    color: beige;
+    font-size:41px;
+text-align: center;
+}
+
+.sub-section-3-c{
+    color: beige;
+    font-size: 41px;
+    text-align: center;
+}
+
+/* SECTION - 4 */
+
+.section-4{
+    background-color: rgb(32, 20, 1);
+    display:grid;
+     grid-template-columns: 5fr 5fr 5fr;
+}
+
+.sub-section-4-a{
+    color: beige;
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 10px;
+    
+}
+.sub-section-4-b{
+    color: beige;
+    padding-top: 50px;
+    padding-left: 90px;
+    padding-right: 10px;
+
+}
+
+.list{
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.list:hover{
+    color: rgb(235, 182, 11);
+}
+
+.sub-section-4-c{
+    color: beige;
+    padding-top:50px ;
+
+    
+}
+#add{
+    position:relative;
+        top: 5px;
+        left: -10px;
+ }
+
+ /* FOOTER */
+
+ .footer{
+     background-color: black;
+     color: beige;
+     height: 85px;
+ }
+
+ .footer a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top:25px;
+    cursor: pointer;
+}
+ .footer a:hover{
+    color:rgb(235, 182, 11) ;
+}
+.copyright{
+    float: left;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+#foot{
+ float: right;
+ padding-right: 40px;
+ padding-top:30px;
+}
+.foot{
+    padding-left: 20px;
+}

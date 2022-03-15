@@ -1,0 +1,90 @@
+@media screen and (max-width:1800px)
+{
+    .image_grid{
+        width:100%;
+    }
+}
+@media screen and (max-width:900px)
+{
+   .grid_1{
+       grid-template-columns: 33.3% 33.3% 33.3%;
+   }
+}
+@media  screen and (max-width:805px) {
+
+    
+    .section-4{
+        grid-template-columns: 100%;
+    }
+    .sub-section-4-b{
+        padding-left: 40px;
+    }
+    .sub-section-4-c{
+        padding-left: 40px;
+    }
+    /*FOOTER*/
+    .footer{
+        height: 180px;
+            }
+            #foot{
+                float: left;
+            }
+}
+@media  screen and (max-width:655px){
+    #navbar{
+        height: 120px;
+    }
+    
+    .grid_1{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media  screen and (max-width:494px){
+    #navbar{
+        height: 250px;
+    }
+    #navbar ul li a{
+       font-size: 25px;
+        padding-left: 40px;
+      }
+      .logo{
+          height: 90px;
+          width: 90px;
+      }
+}
+@media  screen and (max-width:415px){
+    .grid_1{
+        grid-template-columns: 100%;
+    }
+    .sub-head{
+        font-size: 80px;
+        padding-top: 60px;
+    }
+    .head{
+        height: 250px;
+    }
+}
+@media  screen and (max-width:372px)
+{
+    #navbar{
+        height: 400px;
+    }
+    #navbar ul li a{
+        font-size: 25px;
+         padding-left: 80px;
+       }
+}
+@media  screen and (max-width:274px){
+    #navbar ul li a{
+         padding-left: 20px;
+       }
+}
+@media  screen and (max-width:245px){
+    .sub-head{
+        font-size: 60px;
+        padding-top: 25px;
+    }
+    .head{
+        height: 150px;
+    }
+}

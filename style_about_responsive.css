@@ -1,0 +1,131 @@
+@media screen and (max-width:940px)
+{
+    .section-1{
+        height: 600px;
+    }
+}
+@media  screen and (max-width:805px) {
+
+    /*FOOTER*/
+    .footer{
+height: 180px;
+    }
+    #foot{
+        float: left;
+    }
+    
+}
+@media screen and (max-width:765px)
+{
+    .section-1{
+        height: 700px;
+    }
+}
+@media screen and (max-width:710px)
+{
+    .section-1{
+        height: 1100px;
+    }
+.grid{
+    grid-template-columns: 100%;
+}
+
+}
+@media screen and (max-width:655px)
+{
+    #navbar{
+        height: 130px;
+    }
+
+    .section-4{
+         grid-template-columns: 100%;
+    }
+    .sub-section-4-b{
+        padding-left: 40px;
+    }
+    .sub-section-4-c{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width:500px){
+    .section-1{
+        height: 1300px;
+    }
+    #navbar{
+        height: 250px;
+    }
+    #navbar ul li a{
+       font-size: 27px;
+        padding-left: 50px;
+      }
+      .logo{
+          height: 90px;
+          width: 90px;
+      }
+      .sub-head{
+          padding-top: 70px;
+          font-size: 70px;
+      }
+      .head{
+          height: 250px;
+      }
+      .section-1{
+        height: 1450px;
+    }
+
+}
+@media screen and (max-width:410px){
+    #navbar{
+        height: 400px;
+    }
+    .sub-head{
+        font-size: 50px;
+    }
+    .head{
+        height: 200px;
+    }
+    #foot{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:330px){
+    .sub-head{
+        font-size: 40px;
+    }
+    .head{
+        height: 180px;
+    }
+    .section-1{
+        height: 1550px;
+    }
+}
+@media screen and (max-width:295px)
+{
+    .section-1{
+        height: 1750px;
+    }
+    .sub-head{
+        font-size: 40px;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    .head{
+        height: 150px;
+    }
+    #navbar ul li a{
+        font-size: 25px;
+         padding-left: 20px;
+       }
+}
+@media screen and (max-width:260px){
+    .sub-head{
+        padding-top: 35px;
+        font-size: 35px;
+    }
+    .head{
+        height: 130px;
+    }
+    .section-1{
+        height: 1900px;
+    }
+}
